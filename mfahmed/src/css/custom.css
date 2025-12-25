@@ -1,0 +1,54 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Import textbook-specific styles */
+@import url('./textbook.css');
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #1a73e8; /* Google blue for robotics theme */
+  --ifm-color-primary-dark: #1865cc;
+  --ifm-color-primary-darker: #1658b9;
+  --ifm-color-primary-darkest: #124796;
+  --ifm-color-primary-light: #3b8cff;
+  --ifm-color-primary-lighter: #559cff;
+  --ifm-color-primary-lightest: #7fb8ff;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #4285f4; /* Google blue for dark mode */
+  --ifm-color-primary-dark: #3367d6;
+  --ifm-color-primary-darker: #2d5db1;
+  --ifm-color-primary-darkest: #264da1;
+  --ifm-color-primary-light: #5a95f5;
+  --ifm-color-primary-lighter: #72a6f7;
+  --ifm-color-primary-lightest: #8bb8f9;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Additional styling for robotics textbook */
+.textbook-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.robotics-diagram {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.robotics-diagram img {
+  max-width: 100%;
+  height: auto;
+}

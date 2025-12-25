@@ -1,0 +1,183 @@
+/* Custom CSS for Physical AI & Humanoid Robotics Textbook */
+
+/* Main textbook styling */
+.textbook-page {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Chapter content styling */
+.chapter-content {
+  margin: 2rem 0;
+}
+
+.chapter-content h1,
+.chapter-content h2,
+.chapter-content h3 {
+  font-family: 'Arial', sans-serif;
+  color: #2c3e50;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.chapter-content h1 {
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+}
+
+.chapter-content h2 {
+  border-bottom: 1px solid #bdc3c7;
+  padding-bottom: 0.3rem;
+}
+
+.chapter-content p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+/* Code blocks styling */
+.prism-code {
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  padding: 16px;
+  overflow: auto;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Blockquotes for important notes */
+.admonition {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border-left: 4px solid #3498db;
+  background-color: #f8f9fa;
+}
+
+.admonition.note {
+  border-left-color: #3498db;
+}
+
+.admonition.tip {
+  border-left-color: #2ecc71;
+}
+
+.admonition.warning {
+  border-left-color: #f39c12;
+}
+
+.admonition.danger {
+  border-left-color: #e74c3c;
+}
+
+/* Tables styling */
+.table-wrapper {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.textbook-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.textbook-table th,
+.textbook-table td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.textbook-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Images styling */
+.textbook-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Navigation styling */
+.chapter-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.chapter-nav-link {
+  padding: 0.5rem 1rem;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.chapter-nav-link:hover {
+  background-color: #2980b9;
+}
+
+/* Progress indicators */
+.progress-container {
+  margin: 1.5rem 0;
+}
+
+.progress-bar {
+  height: 8px;
+  background-color: #ecf0f1;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #3498db;
+  transition: width 0.3s ease;
+}
+
+/* Learning objectives styling */
+.learning-objectives {
+  background-color: #e8f4fc;
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1.5rem 0;
+  border-left: 4px solid #3498db;
+}
+
+.learning-objectives h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.learning-objectives ul {
+  margin-bottom: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .textbook-page {
+    padding: 10px;
+  }
+  
+  .chapter-navigation {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .chapter-nav-link {
+    width: 100%;
+    text-align: center;
+  }
+}

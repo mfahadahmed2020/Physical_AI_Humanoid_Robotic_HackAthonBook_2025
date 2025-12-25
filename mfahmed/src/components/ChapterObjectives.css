@@ -1,0 +1,24 @@
+.learning-objectives {
+  background-color: #e8f4fc;
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1.5rem 0;
+  border-left: 4px solid #3498db;
+}
+
+.learning-objectives h3 {
+  margin-top: 0;
+  color: #2c3e50;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.learning-objectives ul {
+  margin-bottom: 0;
+  padding-left: 1.5rem;
+}
+
+.learning-objectives li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}

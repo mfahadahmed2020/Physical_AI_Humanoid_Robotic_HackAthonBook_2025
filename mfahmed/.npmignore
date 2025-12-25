@@ -1,0 +1,30 @@
+# Ignore files that are not needed for npm package
+# (This is used when publishing packages to npm registry)
+# For a local Docusaurus project, this may not be necessary,
+# but it's good to have consistency
+
+# Git-specific files
+.git/
+.gitignore
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Development files
+node_modules/
+*.log
+logs/
+
+# Environment variables
+.env*
+!.env.example
+
+# Backend files (if accidentally included)
+backend/
+specs/
+.history/

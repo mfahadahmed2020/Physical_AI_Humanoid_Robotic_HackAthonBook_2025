@@ -1,0 +1,45 @@
+.chapter-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.chapter-nav-link {
+  padding: 0.75rem 1.5rem;
+  background-color: #1a73e8;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  display: inline-block;
+  min-width: 150px;
+  text-align: center;
+}
+
+.chapter-nav-link:hover {
+  background-color: #2980b9;
+  color: white;
+}
+
+.chapter-nav-previous {
+  text-align: left;
+}
+
+.chapter-nav-next {
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .chapter-navigation {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .chapter-nav-link {
+    width: 100%;
+    text-align: center;
+  }
+}
