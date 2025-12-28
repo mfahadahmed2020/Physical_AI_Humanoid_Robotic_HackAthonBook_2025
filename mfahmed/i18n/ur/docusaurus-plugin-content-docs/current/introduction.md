@@ -3,43 +3,43 @@ sidebar_position: 1
 title: Introduction to Physical AI & Humanoid Robotics
 ---
 
-# Introduction to Physical AI & Humanoid Robotics
+# فزیکل اے آئی اور ہیومینائڈ روبوٹکس کا تعارف
 
-Welcome to the Physical AI & Humanoid Robotics textbook. This comprehensive guide will take you from foundational concepts to advanced humanoid control systems using ROS 2, Gazebo, Unity, NVIDIA Isaac, and Vision-Language-Action systems.
+Physical AI اور Humanoid Robotics کی نصابی کتاب میں خوش آمدید۔ یہ جامع گائیڈ آپ کو بنیادی تصورات سے لے کر ROS 2، Gazebo، Unity، NVIDIA Isaac، اور Vision-Language-Action سسٹمز کا استعمال کرتے ہوئے جدید انسانی کنٹرول سسٹمز تک لے جائے گا۔
 
-## What is Physical AI?
+## فزیکل AI کیا ہے؟
 
-Physical AI refers to the field of artificial intelligence that focuses on embodied intelligence - the idea that intelligence emerges from the interaction between an agent and its physical environment. Unlike traditional AI that operates on abstract data, Physical AI systems must navigate, manipulate, and understand the physical world.
+فزیکل AI مصنوعی ذہانت کے شعبے سے مراد ہے جو مجسم ذہانت پر مرکوز ہے - یہ خیال کہ ذہانت ایک ایجنٹ اور اس کے جسمانی ماحول کے درمیان تعامل سے ابھرتی ہے۔ روایتی AI کے برعکس جو تجریدی اعداد و شمار پر کام کرتا ہے، فزیکل AI سسٹمز کو جسمانی دنیا کو نیویگیٹ، ہیرا پھیری اور سمجھنا چاہیے۔
 
-## Course Objectives
+## کورس کے مقاصد
 
-By the end of this course, you will be able to:
-- Understand the principles of embodied intelligence
-- Develop simulation-based workflows for robotics
-- Implement advanced humanoid control systems
-- Integrate vision-language-action systems
-- Apply safety protocols in humanoid robotics
+اس کورس کے اختتام تک، آپ اس قابل ہو جائیں گے:
+- مجسم ذہانت کے اصولوں کو سمجھیں۔
+- روبوٹکس کے لیے تخروپن پر مبنی ورک فلو تیار کریں۔
+- جدید ہیومنائڈ کنٹرول سسٹم کو نافذ کریں۔
+- وژن-زبان-عمل کے نظام کو مربوط کریں۔
+- ہیومنائیڈ روبوٹکس میں حفاظتی پروٹوکول کا اطلاق کریں۔
 
-## Target Audience
+## ہدفی سامعین
 
-This textbook is designed for:
-- Robotics researchers and engineers
-- Computer science students specializing in AI/Robotics
-- Professionals transitioning into humanoid robotics
-- Educators developing robotics curricula
+یہ نصابی کتاب اس کے لیے ڈیزائن کی گئی ہے:
+- روبوٹکس کے محققین اور انجینئرز
+- کمپیوٹر سائنس کے طلباء جو AI/روبوٹکس میں مہارت رکھتے ہیں۔
+- پیشہ ور افراد ہیومنائڈ روبوٹکس میں تبدیل ہو رہے ہیں۔
+- روبوٹکس نصاب تیار کرنے والے اساتذہ
 
-## Prerequisites
+## شرائط
 
-Before diving into this material, you should have:
-- Basic programming experience (Python preferred)
-- Understanding of linear algebra and calculus
-- Familiarity with Linux command line
-- Basic knowledge of control systems (helpful but not required)
+اس مواد میں غوطہ لگانے سے پہلے، آپ کو یہ ہونا چاہئے:
+- پروگرامنگ کا بنیادی تجربہ (ازگر کو ترجیح دی گئی)
+- لکیری الجبرا اور کیلکولس کی تفہیم
+- لینکس کمانڈ لائن سے واقفیت
+- کنٹرول سسٹم کا بنیادی علم (مددگار لیکن ضروری نہیں)
 
-## How to Use This Textbook
+## اس نصابی کتاب کو کیسے استعمال کریں۔
 
-This textbook is designed to be interactive. Each chapter includes:
-- Theoretical concepts with mathematical foundations
-- Practical examples with code implementations
-- Simulation exercises to test your understanding
-- Assessments to validate your learning
+اس نصابی کتاب کو انٹرایکٹو بنانے کے لیے ڈیزائن کیا گیا ہے۔ ہر باب میں شامل ہیں:
+- ریاضیاتی بنیادوں کے ساتھ نظریاتی تصورات
+- کوڈ کے نفاذ کے ساتھ عملی مثالیں۔
+- آپ کی سمجھ کو جانچنے کے لئے نقلی مشقیں۔
+- آپ کے سیکھنے کی توثیق کرنے کے لیے تشخیص
